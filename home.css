@@ -1,0 +1,112 @@
+body
+{
+    background-image: url(athlete-7200532_960_720.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+.navbar
+{
+    overflow: hidden;
+    background-color:white;
+    font-family: fantasy;
+    width: 728px;
+    border-radius: 7px;
+    margin-left: 650px;
+    margin-top: -145px;
+  }
+  
+.navbar a 
+{
+    float: left;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+  
+.dropdown 
+{
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn 
+{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px 15px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: rgb(250, 88, 29);
+}
+   
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a 
+{
+    float: none;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+    
+.dropdown-content a:hover 
+{
+    background-color: rgb(250, 88, 29);
+}
+  
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+.text
+{
+    margin-left: 2%;
+    margin-top: 245px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text h1
+{
+   font-size: 68px;
+}
+
+.text p
+{
+  font-size: 27px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text h
+{
+  color: rgb(250, 88, 29);
+}
+
+.text2
+{
+  color: rgb(250, 88, 29);
+  text-align: center;
+  margin-top: 200px;
+  border: 2px solid black;
+  background-color: lightgray;
+}
